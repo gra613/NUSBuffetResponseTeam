@@ -1,0 +1,27 @@
+.oval {
+	width: 150px;
+	height: 150px;
+	background: #a8ff51;
+	-moz-border-radius: 100px / 100px;
+	-webkit-border-radius: 100px / 100px;
+	border-radius: 100px / 100px;
+
+	display: inline-block; 
+
+}
+
+.oval-centre {
+	display:table;
+	height: 150px;
+	color:black;
+	
+	
+}
+
+.oval-centre p {
+	display:table-cell;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 1.25;
+	padding-left:15px;
+	padding-right:15px;

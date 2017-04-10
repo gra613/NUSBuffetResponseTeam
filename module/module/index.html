@@ -79,7 +79,7 @@
 								
 								<p style="text-align:left;">Produced by <a href="https://www.facebook.com/NUSBuffetResponseTeam/" target="_blank" class="fh5co-site-name">NUS Buffet Response Team</a></p>
 								<p style="text-align:left;">Powered by <a href="https://www.facebook.com/NUSBuffetResponseTeam/" target="_blank" class="fh5co-site-name">Hostgagements</a></p>
-								<p style="text-align:left;">Supported by <a href="https://aws.amazon.com/rekognition/" target="_blank" class="fh5co-site-name">Amazon Rekognition</a></p>
+								<p style="text-align:left;">Supported by <a href="https://aws.amazon.com/rekognition/" target="_blank" class="fh5co-site-name">Amazon Rekognition Services</a></p>
 								<p style="text-align:left;" ><a class="btn btn-primary btn-lg" href="#counters">Join the Communty!</a></font></p> 
 								<p>
 									
@@ -130,44 +130,57 @@
 
 
 
-.oval {
-	width: 150px;
-	height: 150px;
-	background: #a8ff51;
-	-moz-border-radius: 100px / 100px;
-	-webkit-border-radius: 100px / 100px;
-	border-radius: 100px / 100px;
 
-	display: inline-block; 
-
-}
-
-.oval-centre {
-	display:table;
-	width: 150px;
-	height: 150px;
-	color:black;
 	
 }
 
-.oval-centre p {
-	display:table-cell;
-	vertical-align: middle;
-	text-align:center;
-	padding-left:20px;
-	padding-right:20px; 
-	line-height: 1.25;
 
-	
+
+
+.tracker-image {
+	background-image:url("images/tracker_image_01.jpg");
+	background-size:cover;
+	min-height: 500px;
+
+  
+}
+
+.item {
+    display: table-cell;
+    width: 24%;
+    height:100%;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.item p {
+	font-size:200%; 
+	color:white;
+	line-height:1.25;
+
+
+
 }
 
 .number-style {
-	font-size: 200%;
+	font-size: 65px;
+
 
 }
 
+.background {
+    display: table;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("images/tracker_image_01.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
 
-.tracker-image background-image:url("images/Gra_1.jpg")
+
+
 
 /* Cleaner, but slightly less support: use "50%" as value */
 
@@ -177,66 +190,15 @@
 
 <h2>Trackers</h2>
 
-<div class="tracker image">
-
-
-<div class="oval"><div class ="oval-centre"><p><strong class="number-style">46</strong> Buffet Events  </p></div></div>
-<div class="oval"><div class ="oval-centre"><p><strong class="number-style">113</strong> Trays of food saved  </p></div></div>
-<div class="oval"><div class ="oval-centre"><p><strong class="number-style">2,250</strong> Telegram group members </p></div></div>
-<div class="oval"><div class ="oval-centre"><p><i><strong class="number-style">N</strong></i> Telegram bot users  </p></div></div>
-<div></div>
-
+<table class="background">
+<tr>
+	<td class="item"><p><strong class="number-style">48</strong></p><p> Buffet Events</p></td>
+	<td class="item"><p><strong class="number-style">118</strong></p><p> Trays of food saved</p></td>
+	<td class="item"><p><strong class="number-style">2,288</strong></p><p> Telegram members</p></td>
+	<td class="item" ><p><i><strong class="number-style">N</strong></p><p></i> Telegram bot users </p></td>
+</tr>
+</table>
 <div class="after-box"><i>updated as at 10 April 2017 </i></div>
-
-</body>
-</html>
-
-
-<!-Tracker try 2>
-
-</style>
-</head>
-<body background img:href="https://www.google.com.sg/search?q=food+image&rlz=1C1CHBF_enSG732SG732&tbm=isch&imgil=_2gp-Dxg18w8PM%253A%253BF4fzcSFVcTK1kM%253Bhttps%25253A%25252F%25252Fen.wikipedia.org%25252Fwiki%25252FFood&source=iu&pf=m&fir=_2gp-Dxg18w8PM%253A%252CF4fzcSFVcTK1kM%252C_&usg=__zVQ3D5E1SXU0ztqRFdSJG68c5Fo%3D&biw=1213&bih=581&ved=0ahUKEwjuiLf-kZnTAhWCrY8KHbIQAL0QyjcINA&ei=9RXrWK66EILbvgSyoYDoCw">
-
-
-
-<!-Tracker 3 - failed->
-
-
-
-
-
-   <div class="number-counters">
-      <div class="container">
-        <div id="counters" class="row count-wrapper">
-              
-              <!-- Item 1 -->
-              <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                <span id="count-1" class="count-nbr">XXX</span>
-                <span class="count-text">Buffet events</span>
-              </div>
-
-              <!-- Item 2 -->
-              <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s">
-                <span id="count-2" class="count-nbr">XXX</span>
-                <span class="count-text">Trays of food saved</span>
-              </div>
-
-              <!-- Item 3 -->
-              <div class="col-md-3 mb-sm-100 count-item wow fadeIn" data-wow-duration="1s">
-                <span id="count-3" class="count-nbr">2,200</span>
-                <span class="count-text">Telegram community</span>
-              </div>
-
-              <!-- Item 4 -->
-              <div class="col-md-3 count-item wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
-                <span id="count-4" class="count-nbr">XXX</span>
-                <span class="count-text">Telegram Bot users</span>
-              </div>
-
-            </div><!-- / .row -->
-          </div><!-- / .container -->
-        </div><!-- / .number-counters -->
 
 <!-BRT About (objective, motivation)->
 
@@ -272,9 +234,6 @@
 							<div class="feature-copy">
 								<h3>Current Achievements</h3>
 								<p>Since <a href="https://www.facebook.com/NUSBuffetResponseTeam/">NUS BRT Facebook group's</a> launch until January 2017, <strong>11 buffet events</strong> were crowd-sourced and linked with the NUS BRT community and at least 30 trays of food were saved and diverted from our landfill. We were also featured as one of the Student Life-Hacks on Campus for NUS Student Life Fair 2016. </p> 
-
-<p>To improve the engagement process and reach out to more students and staff event organizers, NUS BRT has since moved to a more instantaneous platform leveraging on the Telegram mobile application. We believe that with the right use of technology, we can believe a more effective channel to link people with unfinished food. Within two months of implementation since February 2017, the group has garnered over <strong>2,200 members</strong> and crowd-sourced <strong>46 buffet events' food</strong> saved from going to waste! 
-</p>
 								
 							</div>
 						</div>
@@ -287,11 +246,9 @@
 							</span>
 							<div class="feature-copy">
 								<h3>How It Works</h3>
-								<p>1. /subscribe to  <a href="http://t.me/nusbrtbot"> NUSBRTBOT</a></p>
-								<p>2. See leftover catering food? 
-								<p>Snap a photo add caption and post on the bot!  </p>
-								<p>Valid photo > Notifications sent to all subscribers </p>
-								<p>Invalid photo sent > Rejected </p>
+								<p>1. /start  <a href="http://t.me/nusbrtbot"> NUSBRTBOT</a></p>
+								<p>2. See leftover catering food? SNAP a photo, add CAPTION and POST on the bot!  </p>
+								<p>Photos are validated with the support of <a href="https://aws.amazon.com/rekognition/" target="_blank" class="fh5co-site-name">Amazon Rekognition Services</a></p>
 						
 							</div>
 						</div>
@@ -317,12 +274,12 @@
 				</div>
 
 
-<!-event 1->				
+<!-Facebook->				
 
 				<div class="row row-bottom-padded-md">
 					<div class="col-md-12">
 						<ul id="fh5co-portfolio-list">
-						<li class="two-third animate-box" data-animate-effect="fadeIn" data-stellar-background-ratio="1.0" style="background-image: url(images/BRT_FB.jpg); ">
+						<li class="two-third animate-box" data-animate-effect="fadeIn" data-stellar-background-ratio="1.0" style="background-image: url(images/BRT_FB_edited.png); ">
 								<a href="https://www.facebook.com/NUSBuffetResponseTeam/" class="color-3">
 									<div class="case-studies-summary">
 										<span> est October 2015 </span>
@@ -338,7 +295,7 @@
 
 						
 
-							<li class="two-third animate-box" data-animate-effect="fadeIn" data-stellar-background-ratio="1.0"  style="background-image: url(images/BRT_Tele.jpg); ">
+							<li class="two-third animate-box" data-animate-effect="fadeIn" data-stellar-background-ratio="1.0"  style="background-image: url(images/BRT_Tele_2_edited.png); ">
 								<a href="http://tinyurl.com/NUSBRT" class="color-4">
 
 									<div class="case-studies-summary">
@@ -350,7 +307,7 @@
 
 <!-event 3->
 
-							<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/BRT_BOT.jpg); "> 
+							<li class="two-third animate-box" data-animate-effect="fadeIn" style="background-image: url(images/BRT_BOT_2_edited.png); "> 
 								<a href="#" class="color-5">
 									<div class="case-studies-summary">
 										<span> On 10 April 2017</span>
