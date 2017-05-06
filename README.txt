@@ -1,3 +1,11 @@
+The NUS Buffet Response Team (BRT) has created a bot to facilitate matching between leftover buffets from organisers and passer-bys to reduce food waste from catered events. This is the website giving a glimpse of how users can contribute or be subscribed to the timely updates for a well-deserved break!
+
+In April 2017, Hostgagments acquired NUS BRT as its second product acquisition and created the bot, together with this website at the Amazon Web Services Hack Day. This was a fringe event as part of its annual Amazon Web Services Summit.
+
+Hostgagements leads hosting, event management, copywriting and team building requests. Do follow our updates on <a href="https://www.instagram.com/angushostgagements/"> text </a> or Instagram (@angushostgagements)!
+
+We are grateful and give credits to the template.
+
 
 TITLE: 
 Module - 100% Fully Responsive Free HTML5 Bootstrap Template
